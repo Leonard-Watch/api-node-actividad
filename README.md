@@ -34,3 +34,12 @@ Completa la lógica de los siguientes endpoints en el archivo `server.js`:
 * **DELETE /productos/:id:** Elimina un producto por su ID.
 
 Una vez terminada la tarea, sube tu código a un nuevo repositorio en tu propia cuenta de GitHub y envía el enlace.
+
+**Actualizar PUT** Verificar en git bash.
+curl -X PUT http://localhost:3000/productos/2 \
+     -H "Content-Type: application/json" \
+     -d '{"precio":30}'
+
+**Delete** Verificar en git bash.
+curl -X DELETE http://localhost:3000/productos/3
+
